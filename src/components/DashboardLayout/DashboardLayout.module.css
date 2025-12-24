@@ -1,0 +1,96 @@
+:global(body, html, #root) {
+    height: 100%;
+    margin: 0;
+}
+
+
+.main {
+    flex: 1;
+    padding: 2rem;
+}
+
+:global(#root > div) {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2db2ea;
+    padding: 1rem 2rem;
+    color: white;
+}
+
+.brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 2.5rem;
+    color: white;
+}
+
+.navLinks {
+    display: flex;
+    gap: 1.5rem;
+    flex: 1;
+}
+
+.navLink {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.navLink:hover {
+    color: #a8d0f0;
+}
+
+.navLinkActive {
+    border-bottom: 2px solid #a8d0f0;
+}
+
+.logoutButton {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.logoutButton:hover {
+    background-color: #c82333;
+}
+
+.main {
+    padding: 2rem;
+}
+
+.userSection {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    color: white;
+    font-weight: 500;
+}
+
+.username {
+    font-size: 1rem;
+    white-space: nowrap;
+}
+
+.userIcon {
+    width: 24px;
+    height: 24px;
+    color: white;
+}
+
+.usernameAndLogo{
+    display: flex;
+    gap: .3rem;
+}

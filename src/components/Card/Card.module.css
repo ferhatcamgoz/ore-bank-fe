@@ -1,0 +1,50 @@
+.card {
+    border: 1px solid #ccc;
+    width: 250px;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    color: #222;
+}
+
+.title {
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+}
+
+.description {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: #555;
+}
+
+.button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.iconWrapper {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.icon {
+    width: 40px;
+    height: 40px;
+    color: #2db2ea;
+}

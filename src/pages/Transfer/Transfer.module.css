@@ -1,0 +1,159 @@
+.container {
+    max-width: 480px;
+    margin: 2rem auto;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    color: #222;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #2db2ea;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.label {
+    font-weight: 600;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    margin-top: 6px;
+    padding: 10px 12px;
+    border-radius: 4px;
+    border: 1.5px solid #ddd;
+    font-size: 1rem;
+    outline-offset: 2px;
+    transition: border-color 0.25s ease-in-out;
+}
+
+.input:focus {
+    border-color: #0077cc;
+    outline: none;
+}
+
+.button {
+    background-color: #0077cc;
+    color: white;
+    padding: 12px 0;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #005fa3;
+}
+
+.quickSelectContainer {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #555;
+}
+
+.quickSelectList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 6px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.quickSelectItem {
+    background-color: #e1f0ff;
+    color: #0077cc;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.25s ease;
+}
+
+.quickSelectItem:hover {
+    background-color: #b3d8ff;
+}
+
+.accountGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0;
+}
+
+.accountCard {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 1.2rem 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.04);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+}
+
+.accountCard:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+    background-color: #f9fafb;
+}
+
+.cardHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.accountNumber {
+    font-weight: 600;
+    color: #1e293b;
+}
+
+.accountName {
+    color: #64748b;
+}
+
+.cardBalance {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #10b981;
+}
+
+.backButton {
+    display: inline-flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    color: #0077ff;
+    cursor: pointer;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.backButton:hover {
+    color: #005fcc;
+}
+
+.backIcon {
+    width: 22px;
+    height: 22px;
+    margin-right: 0.5rem;
+}
